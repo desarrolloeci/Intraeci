@@ -1,0 +1,340 @@
+/* 
+    Document   : RegConsulta
+    Created on : 13/01/2016, 03:59:30 PM
+    Author     : Mario Martínez
+*/
+
+html, body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    /*font-size: 15px;*/
+    font-size: 10px;
+}
+
+#formulario {
+    position: relative;
+    display: table;
+    width: 780px;
+    margin: 0.625em auto;
+    padding: 20px;
+    border: 1px solid #C74747;
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-shadow: 7px 7px 15px #888888;
+    text-align: center;
+    /*font-family: winterthurcondensedregular;*/
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#formulario #formContent {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario #formHistEst {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario #formHistProf {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario #formHistDec {
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario #formContent > div {
+    margin-bottom: 10px;
+}
+
+#formulario .title {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-bottom: 15px !important;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #900000;
+}
+
+#formulario .subtitle {
+    float: left;
+    width: 25%;
+    height: 30px;
+    font-size: 1.4em;
+    text-align: left;
+    line-height: 200%;
+}
+
+#formulario #formContent .input {
+    float: left;
+    width: 70%;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#formulario #formContent .inputAuto {
+    float: left;
+    width: 70%;
+    height: 30px;
+    font-size: 1.4em;
+    text-align: left;
+    line-height: 200%;
+}
+
+#formulario #formContent .input input,
+#formulario #formContent .input select,
+#formulario #formContent .input textarea {
+    /*font-family: winterthurcondensedregular;*/
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    width: 95%;
+    padding: 5px;
+    border-radius: 7px;
+    resize: none;
+}
+
+#formulario #formContent .input select {
+    width: 20%;
+}
+
+#formulario .btnInput {
+    float: left;
+    width: 45%;
+    height: 30px;
+    margin-left: 25px;
+    font-size: 1.2em;
+    text-align: left;
+    visibility: visible;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario .btnInput input {
+    width: 170px;
+    height: 100%;
+    border: 0px;
+    border-radius: 7px;
+    background: #C00000;
+    color: #FFFFFF;
+    text-align: center;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario .btnInput input:hover {
+    cursor: pointer;
+    background: #8A8A8A;
+}
+
+#formulario #formContent #cancelEst {
+    float: left;
+    height: 30px;
+    color: #8A0808;
+    margin-left: 25px;
+    font-family: Verdana;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 200%;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#formulario #formContent #cancelEst:hover {
+    cursor: pointer;
+}
+
+#formulario #formContent .required {
+    float: left;
+    height: 30px;
+    color: #C00000;
+    font-size: 36px;
+}
+
+#formulario #formContent #divHistDec {
+    position: absolute;
+    right: 20px;
+    top: 33px;
+    width: auto;
+}
+
+#formulario #formContent #divHistProf {
+    position: absolute;
+    right: 20px;
+    top: 66px;
+    width: auto;
+}
+
+#formulario #formContent #footer {
+    width: 100%;
+    height: 100px;
+}
+
+#formulario #formHistEst #goBackHistEst {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+}
+
+#formulario #formHistEst #exportHistEst {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+}
+
+#formulario #formHistEst #tblHistEst {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+#formulario #formHistEst #tblHistEst th {
+    color: #686868;
+    font-size: 1.4em;
+    border-right: 1px solid #E0E0E0;
+}
+
+#formulario #formHistEst #tblHistEst th:last-of-type {
+    border-right: 0px;
+}
+
+#formulario #formHistEst #tblHistEst td {
+    color: #5A5A5A;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+#formulario #formHistEst #tblHistEst td:last-of-type {
+    border-right: 0px;
+}
+
+#formulario #formHistProf #goBackHistProf {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+}
+
+#formulario #formHistProf #exportHistProf {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+}
+
+#formulario #formHistProf #tblHistProf {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+#formulario #formHistProf #tblHistProf th {
+    color: #686868;
+    font-size: 1.4em;
+    border-right: 1px solid #E0E0E0;
+}
+
+#formulario #formHistProf #tblHistProf th:last-of-type {
+    border-right: 0px;
+}
+
+#formulario #formHistProf #tblHistProf td {
+    color: #5A5A5A;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+#formulario #formHistProf #tblHistProf td:last-of-type {
+    border-right: 0px;
+}
+
+#formulario #formHistDec #goBackHistDec {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+}
+
+#formulario #formHistDec #exportHistDec {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: auto;
+    margin: 0px;
+}
+
+#formulario #formHistDec #tblHistDec {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+#formulario #formHistDec #tblHistDec th {
+    color: #686868;
+    font-size: 1.4em;
+    border-right: 1px solid #E0E0E0;
+}
+
+#formulario #formHistDec #tblHistDec th:last-of-type {
+    border-right: 0px;
+}
+
+#formulario #formHistDec #tblHistDec td {
+    color: #5A5A5A;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+
+#formulario #formHistDec #tblHistDec td:last-of-type {
+    border-right: 0px;
+}
+
+#lanzador {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    -webkit-transition: anything 0.3s; /* Safari */
+    transition: all 0.3s;
+}
+
+#lanzador:hover {
+    cursor: pointer;
+    opacity: 1;
+}

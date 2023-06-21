@@ -1,0 +1,318 @@
+#map_canvas {
+	float:left;
+	width:838px;
+	height:276px;
+}
+
+.central2 {
+    float: left;
+    height: auto;
+    margin-left: -20px;
+    width: 880px;
+}
+
+.columna4 {
+    border-left: 2px solid #DFDFDF;
+    float: left;
+    height: auto;
+    margin: 0 0 0 18px;
+    padding: 0 0 0 18px;
+    width: 843px;
+}
+.columna4_int {
+    float: left;
+    height: 350px;
+    margin-top: 22px;
+    min-height: 350px;
+    position: relative;
+    width: 843px;
+}
+
+.contentjs {
+	width:400px;
+	height:auto;
+}
+
+.contentjs h1 {
+	float:left;
+	width:90%;
+	height:auto;
+	margin: 0 0 5px 0;
+	font: 14px  'MyriadProBold';
+	color: #444;
+}
+
+.contentjs p {
+	float:left;
+	width:90%;
+	height:auto;
+	margin: 2px 0px;
+	font: 12px  'MyriadProRegular';
+	color: #777;
+}
+
+
+
+.tabla11 {
+	float:left;
+	width:810px;
+	height:auto;
+	border:none;
+	border-collapse: collapse;
+}
+
+.tabla11 tr {
+	vertical-align: text-bottom;
+	width:100%;
+	float:left;
+	margin: 0px;
+}
+
+.tabla11 th {
+	width:auto;
+	height:25px;
+	vertical-align: middle;
+	color: #d6d5d5;
+	padding:0px 5px;
+	position:relative;
+	float:left;
+	border-top: 1px solid #CBCBCB;
+	border-right: 1px solid #CBCBCB;
+	border-bottom: 0px;
+}
+
+.tabla11 th div {
+	width:100%;
+	height:25px;
+	padding: 0px 5px;
+	text-align:center;
+	background: #231f20;
+	vertical-align: middle;
+	display: table-cell;
+	font: 10px  'MyriadProBold';
+}
+
+.tabla11 th.right {
+	padding-right: 0px !important;
+}
+
+.tabla11 th.left {
+	padding-left: 0px !important;
+	border-left: 1px solid #CBCBCB;
+}
+
+.tabla11 td {
+	border: 1px solid #CBCBCB;
+}
+
+
+.tabla11 td {
+	width:auto;
+	height:25px;
+	vertical-align: middle;
+	text-align: center;
+	color: #a29f9e;
+	position:relative;
+	font: 12px  'MyriadProRegular';
+}
+
+.tabla11 td a {
+	width:185px;
+	height:25px;
+	text-align:center;
+	vertical-align: middle;
+	display: table-cell;
+	font: 11px  'MyriadProBold';
+	text-decoration: underline;
+	color: #990000;
+}
+
+.tabla11 tr.table__row {
+	background: #f0f0f0;
+}
+
+.tabla11 .th1 {
+	width: 323px;
+}
+ 
+.tabla11 .th2 {
+	width: 90px;
+}
+
+.tabla11 .th3 {
+	width: 104px;
+}
+ 
+.tabla11 .th4 {
+	width: 217px;
+}
+
+.tabla11 .td1 {
+	width: 336px;
+}
+ 
+.tabla11 .td2 {
+	width: 108px;
+}
+
+.tabla11 .td3 {
+	width: 122px;
+}
+ 
+.tabla11 .td4 {
+	width: 229px;
+}
+
+#buscador_dir {
+	float:left;
+	width:161px;
+	margin:10px 0 0 0; 
+	height:auto;
+}
+
+#buscador_dir input[type="text"]{
+	float:left;
+	width:125px;
+	height:15px;
+	padding:5px 18px;
+	position: relative;
+	margin:0 0 10px 0;
+	border:none;
+	color:#333;
+	font:12px  'MyriadProRegular';
+	-webkit-box-shadow: 0px 0px 4px 1px #CCCCCC;
+	-moz-box-shadow: 0px 0px 4px 1px #CCCCCC;
+	box-shadow: 0px 0px 4px 1px #CCCCCC;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(/images/PIE.htc);
+	background: url(../images/basics/bg_select3.jpg) no-repeat 50% 50%;
+}
+
+#buscador_dir input[type="submit"]{
+	float:right;
+	width:60px;
+	padding:3px 7px;
+	height:23px;
+	position:relative;
+	margin:10px 0 0px 0;
+	border:none;
+	background: #990000;
+	color:#fff;
+	font:12px  'MyriadProRegular';
+	-webkit-box-shadow: 0px 0px 4px 1px #CCCCCC;
+	-moz-box-shadow: 0px 0px 4px 1px #CCCCCC;
+	box-shadow: 0px 0px 4px 1px #CCCCCC;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(/images/PIE.htc);
+}
+
+.mapa_sitio {
+	float:left;
+	width:150px;
+	height:auto;
+	margin: 0px 48px 20px 0px;
+	padding: 0 0 0 25px;
+}
+
+.mapa_sitio li {
+	width:150px;
+	float:left;
+	height:auto;
+	color:#333;
+	margin: 0 0 5px 0;
+}
+
+.mapa_sitio li:first-child {
+	list-style: none;
+}
+
+.mapa_sitio li ul {
+	margin:0px;
+	width:125px;
+}
+
+.mapa_sitio li a{
+	float:right;
+	width:150px;
+	height:auto;
+	margin:0px;
+	color: #777;
+	font:12px  'MyriadProRegular';
+}
+
+.mapa_sitio li a:hover {
+	color: #990000;
+}
+
+.mapa_sitio li h1{
+	float:left;
+	width:150px;
+	height:auto;
+	margin:0px;
+	color: #333;
+	font:12px  'MyriadProRegular';
+}
+
+.index_eventos {
+	float:left;
+	width:490px;
+	height:auto;
+	margin: 0 0 0 66px;
+}
+
+.titulo {
+	float:left;
+	width:100%;
+	height:auto;
+	font:15px  'MyriadProRegular';
+}
+
+.eventos_hoy {
+	float:left;
+	width:490px;
+	height: 137px;
+	margin:10px 0px;
+	padding:0px;
+}
+
+.eventos_hoy li {
+	list-style: none;
+	float:left;
+	width:142px;
+	padding:5px 10px;
+	height:auto;
+	background: #e7e7e7;
+	border-right: 1px solid #fff;
+}
+
+.eventos_hoy li  h1 {
+	float:left;
+	width:100%;
+	height:auto;
+	font:15px  'MyriadProRegular';
+	color: #990000;
+}
+
+.eventos_hoy li  h2 {
+	float:left;
+	width:100%;
+	height:auto;
+	font:12px  'MyriadProRegular';
+	color: #333;
+}
+
+.eventos_hoy li  p {
+	float:left;
+	width:100%;
+	height:auto;
+	margin: 10px 0 0 0;
+	max-height:70px;
+	overflow: hidden;
+	font:12px  'MyriadProRegular';
+	color: #777;
+}
+

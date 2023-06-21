@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Lucero/Desktop/SolicitudesAdministrativasExternas.xml" uri="wsdl/SolicitudesAdministrativasExternas.xml.wsdl"/>
+    <system systemId="file:/C:/Users/Lucero/Desktop/Convocatoria.xml" uri="wsdl/Convocatoria.xml.wsdl"/>
+    <system systemId="http://bpm.escuelaing.edu.co/WS/SolicitudesAdministrativasExternas.asmx?WSDL" uri="wsdl/bpm.escuelaing.edu.co/WS/SolicitudesAdministrativasExternas.asmx.wsdl"/>
+</catalog>

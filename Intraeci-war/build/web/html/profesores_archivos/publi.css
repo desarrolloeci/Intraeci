@@ -1,0 +1,19 @@
+#publicaciones {	float:left;	width:622px;	height:228px;	background: url(../images/basics/bg_publi.png)no-repeat;	margin:70px 0px 0px 0px;	padding:0px;	overflow: hidden;	position:relative;	-webkit-box-shadow: 0 0 10px 1px #666;	-moz-box-shadow: 0 0 10px 1px #666;	box-shadow: 0 0 10px 1px #666;	behavior: url(/images/PIE.htc);}#publicaciones li {	float:left;	height:228px;	width:155px;	list-style: none;}#publicaciones li h1 {	float:left;	width:150px;	height:64px;	margin:10px 0;	text-transform: uppercase;	font: 13px 'MyriadProRegular';	text-align: center;	color: #363636;}
+#publicaciones li img {
+	float:left;
+	width:70px;
+	height:96px;
+	border: 2px solid #888;
+	margin: 3px 0 3px 40px;
+}
+
+#publicaciones li p {
+	float:left;
+	width:145px;
+	height:38px;
+	overflow: hidden;
+	margin:0px 5px;
+	font: 12px 'MyriadProRegular';
+	text-align: center;
+	color: #777;
+}

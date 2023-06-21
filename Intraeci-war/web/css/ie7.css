@@ -1,0 +1,29 @@
+#footer #footer_int #izq span {
+	margin-top: -10px;
+}
+
+#footer #footer_int #izq {
+	padding: 6px 176px 4px 60px;
+}
+
+.descargas1 a {
+	margin-top:16px;
+}
+
+.formulario1 h1 {
+	margin:10px 0px 0px 0px;
+}
+
+.tabla3 .td1 {
+	width: 203px;
+}
+ 
+.tabla3 .td2 {
+	width: 274px;
+}
+
+.mapa_sitio li, .ul1 li, .ul3 li, .ul_siste li {
+	float:none !important;
+	vertical-align: top !important;
+	zoom: 0 !important;
+}

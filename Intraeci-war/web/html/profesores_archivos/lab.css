@@ -1,0 +1,54 @@
+#list_lab {
+	float:left;
+	width:622px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
+
+#list_lab li {
+	float:left;
+	width:194px;
+	height:117px;
+	margin:13px 20px 13px 0px;
+	list-style: none;
+	position:relative;
+	-webkit-box-shadow: 0 0 10px 1px #666;
+	-moz-box-shadow: 0 0 10px 1px #666;
+	box-shadow: 0 0 10px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+#list_lab li img {
+	float:left;
+	cursor: pointer;
+	width:172px;
+	height:103px;
+	border-right:11px solid #fff;
+	border-left:11px solid #fff;
+	border-top:7px solid #fff;
+	border-bottom:7px solid #fff;
+}
+
+#list_lab li div {
+	width:184px;
+	height:107px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	text-align:center;
+	background: url(../images/basics/bg6.png) repeat ;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#list_lab li div p {
+	width:184px;
+	height:100%;
+	cursor: pointer;
+	visibility: hidden;
+	display: table-cell;
+	vertical-align: align;
+	font: 12px 'MyriadProRegular';
+	color:#fff;
+}

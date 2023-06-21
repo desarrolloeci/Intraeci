@@ -1,0 +1,73 @@
+
+<%@ include file="../secureprof.jsp" %>
+<%@ page import="javax.naming.*,
+         javax.rmi.PortableRemoteObject,
+         login.InicioProfRemoteBusiness,
+         login.InicioProfRemoteHome"%>
+<%@ page import="java.util.*,java.awt.*,java.io.*, java.text.*, java.net.*;" %>
+
+<%
+        HttpSession sesion;
+        response.setHeader("Cache-Control", "no-cache");
+        session.setAttribute("loginex", empleado.getUsrExchange());
+        inicio.conectaEJB conEjb = new inicio.conectaEJB();
+        BDintraeci.BDadministrativoRemoteBusiness admin = conEjb.lookupBDadministrativoBean();
+        String cedula = empleado.getIdemp();
+        //  String cedula = request.getParameter("cedula");
+        Vector Datos = admin.DatosEncuestas(cedula);
+%>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>Encuestas Autoevaluación con fines de Acreditación Institucional</title>
+    </head>
+    <body>
+
+        <% if (Datos.size() > 0) {
+                for (int i = 0; i < Datos.size(); i++) {
+             Vector dato = (Vector) Datos.elementAt(i);
+            String iden = dato.elementAt(1).toString();
+            String flag1 = dato.elementAt(2).toString();
+            if (iden.equals("15") && flag1.equals("0")) {
+                response.sendRedirect("ECA");
+            } else if (iden.equals("29") && flag1.equals("0")) {
+                response.sendRedirect("ECD");
+            } else if (iden.equals("16") && flag1.equals("0")) {
+                response.sendRedirect("EDCE");
+            }else if (iden.equals("18") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else if (iden.equals("19") && flag1.equals("0")) {
+                response.sendRedirect("EDPpr");
+            }else if (iden.equals("20") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else if (iden.equals("21") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else if (iden.equals("22") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else if (iden.equals("23") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else if (iden.equals("24") && flag1.equals("0")) {
+                response.sendRedirect("TDCE1");
+            }else if (iden.equals("25") && flag1.equals("0")) {
+                response.sendRedirect("TDCE2");
+            }else if (iden.equals("26") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else if (iden.equals("27") && flag1.equals("0")) {
+                response.sendRedirect("Taller2");
+            }else {%>
+            
+                <center>Usted ya diligenció la Encuesta, o no debe realizar este proceso, Gracias por su participación.</center>
+                <center><h2><a href="../intraeci/salir"> Salir </a></h2></center>
+        <%}
+
+            }
+}
+        %>
+        
+    
+        <h1>&nbsp;</h1>
+        <h1 align="center">&nbsp;</h1>
+        <div align="center"></div>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+/* 
+    Document   : seguimiento
+    Created on : 16/08/2012, 09:42:40 AM
+    Author     : Juan Pablo Garcia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#conFase{
+    width: 100%;
+}
+#Fase {
+    float: left;
+    width: 50%;
+}
+#ListaDed {
+    float: left;
+    width: 49%;
+}
+#conEnt{
+    width: 100%;
+    clear: left;
+}
+#ListaEnt {
+    float: left;
+    width: 50%;
+}
+#Ent {
+    float: left;
+    width: 49%;
+}
+

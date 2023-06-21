@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
+<html>
+    <head>
+        <title>
+        </title>
+        <script type="text/javascript" language="javascript">
+            <!--
+            var verifwp;
+            var pop;
+            var mensaje;
+            var http_request = false;
+
+
+            function makeRequest(url) {
+                http_request = false;
+
+                if (window.XMLHttpRequest) { // Mozilla, Safari,...
+                    http_request = new XMLHttpRequest();
+                    if (http_request.overrideMimeType) {
+                        http_request.overrideMimeType('text/xml');
+                    }
+                } else if (window.ActiveXObject) { // IE
+                    try {
+                        http_request = new ActiveXObject("Msxml2.XMLHTTP");
+                    } catch (e) {
+                        try {
+                            http_request = new ActiveXObject("Microsoft.XMLHTTP");
+                        } catch (e) {}
+                    }
+                }
+
+                if (!http_request) {
+                    alert('Giving up :( Cannot create an XMLHTTP instance');
+                    return false;
+                }
+                url = url + "usuario=" + document.getElementById("usuario").value + "&clave=" + document.getElementById("clave").value;
+                //alert(url);
+             //   http_request.onreadystatechange = alertContents;
+                http_request.open('POST', url, true);
+                http_request.send(null);
+
+            }
+
+            function alertContents() {
+
+                if (http_request.readyState == 4) {
+                    if (http_request.status == 200) {
+                        var xmldoc = http_request.responseXML;
+                        var root_node = xmldoc.getElementsByTagName('root').item(0);
+                        if(root_node.firstChild.data != "OK"){
+                            document.getElementById("msj").style.visibility='visible';
+                            document.getElementById("msj").innerText = root_node.firstChild.data;
+                            document.getElementById("msj").textContent = root_node.firstChild.data;
+                            document.getElementById("tabla").style.visibility='visible';
+                            document.getElementById("cargando").style.visibility='hidden';
+                        }
+                        else{
+                            verifwp=window.open("Menu","servicioprofesores","toolbar=no,scrollbars=yes,location=no,directories=yes,status=no,menubar=no,resizable=yes");
+                            //setTimeout("resultado()",2000);
+                            resultado();
+                            if(mensaje=="No existe bloqueador")
+                                window.location = "cerrar";
+                            else
+                                window.location = "inicio?msg=9";
+                        }
+                    } else {
+                        alert('There was a problem with the request.' + http_request.status);
+                    }
+                }else{
+                    document.getElementById("tabla").style.visibility='hidden';
+                    document.getElementById("cargando").style.visibility='visible';
+                    document.getElementById("msj").style.visibility='hidden';
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <div class="columna3">
+            <div class="titulo4"> SERVICIOS ACADÉMICOS </div>
+            <div id="respuesta"></div>
+
+
+            <input type="text" id="usuario" name="usuario" value="Usuario" />
+            <input type="password" id="clave" name="clave" value="1234"/>
+            <a href=""> ¿olvido su contraseña? </a>
+            <div class="info" align="left">
+                <h5><font color="#666666">
+                        <label id="msj">&nbsp;&nbsp;<%=mensaje%></label>
+                    </font></h5>
+            </div>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="100" height="20" class="visibleflash" id="cargando">
+                <param name="movie" value="flash/cargando.swf">
+                <param name="quality" value="high">
+                <embed src="flash/cargando.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="100" height="20"></embed>
+            </object>
+            <table id="tabla">
+                <tr>
+                    <td>
+                        <div align="right">
+                            <input name="navegador" type="hidden" id="navegador" value="">
+
+                            <input name="aceptar" type="submit" class="boton" id="aceptar"  onclick="makeRequest('LoginAjax?')" value="Aceptar"><img src="img/lock.png" width="16" height="16" border="0">&nbsp;&nbsp;
+
+                        </div></td></tr>
+
+
+            </table>
+
+        </div>
+
+    </body></html>

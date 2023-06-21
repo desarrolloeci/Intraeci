@@ -1,0 +1,99 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+	}
+body {
+	background:#F2F2F2;
+	}
+.container {
+	background:#FFF;
+	margin: 0 auto;
+	width:819px;
+	}
+header {
+	box-sizing:border-box;
+	padding-bottom: 3%;
+	background:#FFF;
+	}
+header .logoescuela {
+	padding: 0 5% 0 10%;
+	}
+img .principal {
+	width:100%
+	}
+section {
+	background:#FFF;
+	box-sizing:border-box;
+	overflow:hidden;
+	padding-bottom:5%;
+	}
+nav {
+	float:left;
+	width:40%;
+	padding:2%;
+	box-sizing:border-box;
+	}
+nav li a {
+	text-decoration:none;
+	color:#FFF;
+	}
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  background: #CBCDCF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 2px 0;
+}
+
+.btn:hover {
+  background: #990000;
+  text-decoration: none;
+}
+aside {
+	float:left;
+	width:60%;
+	padding: 5%;
+	box-sizing:border-box;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+.osiris {
+	float:right;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0 31px 0 0;
+	color:#666;
+	}
+footer {
+	width:100%;
+	background:#900;
+	color:#FFF;
+	box-sizing:border-box;
+	overflow:hidden;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:131%;
+	padding:0 0 0 80px;
+	box-sizing:border-box;
+	}
+footer span.programa {
+	float:left;
+	padding:10px 30px 10px 10px;
+	margin:70px 0;
+	text-align:center;
+	}
+footer span.direccion {
+	float:left;
+	border-left: solid #fff 1px;
+	margin:20px 0;
+	padding:10px 10px 10px 30px;
+	}

@@ -1,0 +1,249 @@
+.text4 h2 {
+    color: #990000;
+    float: left;
+    font: 13px 'MyriadProBold';
+    height: auto;
+    margin: 10px 0 5px;
+    width: 100%;
+}
+.tabla9 {
+	float:left;
+	width:620px;
+	height:auto;
+	border:none;
+	border-collapse: collapse;
+}
+.tabla9 tr {
+	vertical-align: text-bottom;
+	width:100%;
+	float:left;
+	margin: 0px;
+}
+.tabla9 th {
+	width:auto;
+	height:25px;
+	vertical-align: middle;
+	color: #d6d5d5;
+	padding:0px 5px;
+	position:relative;
+	float:left;
+	border-top: 1px solid #CBCBCB;
+	border-right: 1px solid #CBCBCB;
+	border-bottom: 0px;
+}
+
+.tabla9 th div {
+	width:100%;
+	height:25px;
+	padding: 0px 5px;
+	text-align:center;
+	background: #231f20;
+	vertical-align: middle;
+	display: table-cell;
+	font: 10px  'MyriadProBold';
+}
+
+.tabla9 th.right {
+	padding-right: 0px !important;
+}
+.tabla9 th.left {
+	padding-left: 0px !important;
+	border-left: 1px solid #CBCBCB;
+}
+.tabla9 td {
+	border: 1px solid #CBCBCB;
+}
+.tabla9 td {
+	width:auto;
+	height:30px;
+	vertical-align: middle;
+	text-align: center;
+	color: #555555;
+	position:relative;
+	font: 12px  'MyriadProRegular';
+}
+
+.tabla9 tr.table_row {
+	background: #f0f0f0;
+}
+
+.tabla9 .th1 {
+	width: 172px;
+}
+.tabla9 .th2 {
+	width: 122px;
+}
+.tabla9 .th3 {
+	width: 25px;
+}
+.tabla9 .th4 {
+	width: 226px;
+}
+.tabla9 .td1 {
+	width: 185px;
+}
+.tabla9 .td2 {
+	width: 140px;
+}
+.tabla9 .td3 {
+	width: 43px;
+}
+.tabla9 .td4 {
+	width: 238px;
+}
+.info_lista2_2 div.wrapper2  h1 {
+    border-bottom: 1px solid #990000;
+    color: #990000;
+    float: left;
+    font: 12.5px 'MyriadProRegular';
+    height: 15px;
+    margin: 10px 0 0 0px;
+    position: relative;
+    width: 96%;
+}
+.info_lista2_2 div.wrapper2  h2 {
+    color: #333333;
+    float: left;
+    font: 12.5px 'MyriadProRegular';
+    height: auto;
+    margin: 10px 0 0;
+    width: 96%;
+}
+.info_lista2_2 div.wrapper2  ul {
+	width:90% !important;
+}
+#center_convenios {
+	float:left;
+	width:auto;
+	height: auto;
+	position: relative;
+	margin: 20px 0 0 100px;
+}
+
+#ebooks {
+	float: left;
+    height: 350px;
+    overflow: hidden;
+    margin: 0 0px 0 0px;
+    padding: 0;
+    width: 610px;
+}
+
+#ebooks li {
+	float:left;
+	width:280px;
+	height:100px;
+	margin: -1px 0px 13px 27px; 
+	list-style: none;
+}
+
+#ebooks li h1 {
+	float:left;
+	width: 100%;
+	height:13px;
+	margin:0px 0px 5px 0px;
+	color: #333;
+	font: 12px 'MyriadProRegular';
+	overflow: hidden;
+}
+
+#ebooks li img {
+	float:left;
+	width:125px;
+	height:79px;
+	border: 2px solid #fff;
+	position:relative;
+	-webkit-box-shadow: 0 0 10px 1px #666;
+	-moz-box-shadow: 0 0 10px 1px #666;
+	box-shadow: 0 0 10px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+#ebooks li p {
+	float:right;
+	width: 321px;
+	height:auto;
+	max-height:80px;
+	margin:-14px -224px 2px 4px;
+	color: #555;
+	font: 11.5px 'MyriadProRegular';
+	text-align: justify;
+	overflow: hidden;
+}
+
+#ebooks li h2 {
+	float: right;
+	width: 170px;
+	height:13px;
+	margin:66px -174px 7px 10px;
+	color: #333;
+	font: 11px 'MyriadProRegular';
+}
+
+#sel_dat {
+	float:left;
+	position:relative;
+	width: 17px;
+	height:17px;
+	padding: 5px;
+	color: #fff;
+	background: #990000;
+	margin: 0 0 20px 25px;
+	font: 14px 'MyriadProBold';
+	text-align: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	behavior: url(/images/PIE.htc);
+}
+
+.wrap_log_left {
+	float:left;
+	width:auto;
+	height:auto;
+	margin: 0 0 0 51px;
+}
+.otrasl #letras {
+	margin:0;
+}
+#letras {
+	float:left;
+	width:160px;
+	height: auto;
+	margin:0px 0 0 62px;
+	padding:0px;
+}
+
+#letras li {
+	list-style: none;
+	float:left;
+	width:auto;
+	height: auto;
+}
+
+#letras li a {
+	float:left;
+	position:relative;
+	width: 14px;
+	height:14px;
+	padding: 3px;
+	color: #990000;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin: 10px 5px 0px;
+	font: 12px 'MyriadProBold';
+	text-align: center;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 0 4px 1px #666;
+	-moz-box-shadow: 0 0 4px 1px #666;
+	box-shadow: 0 0 4px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+#letras li a:hover, .active_letras {
+	background: #990000 !important;
+	border: 1px solid #990000 !important;
+	color: #fff !important;
+}

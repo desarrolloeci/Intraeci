@@ -1,0 +1,204 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #747f59;
+	font-family: 'Oswald', sans-serif ;
+	/*font-size:12px !important;*/
+}
+header {
+	background: #fff;
+}
+.txt-contenido{
+	padding: 15px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+}
+.inscripcion {
+	background: rgba(1,75,91,.5);
+	padding: 10px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+}
+footer .container {
+	background: rgba(0,0,0,.8);
+	padding: 3%;
+	margin-top: 25px;
+	color: #ffffff;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border-radius: 15px;
+}
+article.descripcion {
+	padding: 1% 1% 3% 1%;
+	text-align: justify;
+}
+article.redes ul {
+	list-style: none;
+}
+article.redes li {
+	display: inline-block;
+	padding: 1%;
+}
+ul{
+	padding-left: 10% !important;
+}
+.glyphicon-share {
+	color: #00698C;
+}
+.glyphicon-hourglass, .glyphicon-user, .glyphicon-map-marker, .glyphicon-bookmark, .glyphicon-edit, 
+.glyphicon-flag, .glyphicon-ok-circle, .glyphicon-send, .glyphicon-off, 
+.glyphicon-knight, .glyphicon-sunglasses, .glyphicon-apple, .glyphicon-cutlery,  
+.glyphicon-eye-open {
+	font-size: 150%;
+	color: #967F5A;
+}
+.glyphicon-bullhorn {
+	font-size: 150%;
+	color: #490e6f;
+}cv 
+.glyphicon-gift {
+	font-size: 150%;
+	color: #008542;
+}
+.glyphicon-comment {
+	font-size: 150%;
+	color: #2977AB;
+}
+.glyphicon-calendar {
+	font-size: 150%;
+}
+.glyphicon-list {
+	padding-right: 5px;
+}
+.glyphicon-chevron-down {
+	cursor: pointer;
+	padding-right: 1%;
+	color:  #328fcc;
+}
+.glyphicon-log-out {
+	color: #A3CDE9;
+	font-size: 25px;
+}
+p {
+	padding:0 0 0 7%;
+	text-align: justify;
+	}
+p.nada {
+	padding:0;
+	}
+p.comite, p.conferencistas {
+	text-align: center;
+}
+.titleFormulario {
+	background: #337AB7;
+	padding: 1px;
+	-webkit-border-radius: 15px 15px 0 0;
+	-moz-border-radius: 15px 15px 0 0;
+	-o-border-radius: 15px 15px 0 0;
+	border-radius: 15px 15px 0 0;
+	text-align: center;
+}
+.titleFormulario h2{
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-webkit-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-moz-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	-o-text-shadow: 3px 3px 7px rgba(0, 0, 0, .5) !important;
+	text-transform: uppercase;
+}
+.formulario {
+	width:90%;
+	margin:0 auto;
+	padding:20px;
+	border:1px solid #999;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-ms-border-radius: 7px;
+	box-shadow: 3px 3px 7px #888888;
+	-webkit-box-shadow: 3px 3px 7px #888888;
+	-moz-box-shadow: 3px 3px 7px #888888;
+	-o-box-shadow: 3px 3px 7px #888888;
+	-ms-box-shadow: 3px 3px 7px #888888;
+	background:#FFF;
+}
+input[type=text], input[type=email]{
+	margin:0 0 12px 0;
+	padding:10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	color:#666;
+	}
+select, [type=number], label {
+	margin:0 0 12px 0;
+	padding:3px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	color:#666;
+	}
+input[type=submit]{
+	padding:10px;
+	text-align:center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	color:#FFF;
+	border:none;
+	}
+input[type=submit]:hover{
+	background:#666;
+	cursor:pointer;
+	}
+.form-group {
+	margin: 5px;
+	padding: 5px;
+	overflow: hidden;
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+	.formulario {
+	width:98%;
+	}
+	input[type=text], input[type=email]{
+	width:85%;
+	}
+	select, [type=number], label {
+	width:25%;
+	}
+	input[type=submit]{
+	width: 98%;
+	}
+}
+.table {
+	padding: 1% !important;
+}
+.imgFooter {
+	background: #014B5B !important;
+	padding: 0px;
+}
+form {
+	background: #F5F5F5;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	margin: 15px;
+}

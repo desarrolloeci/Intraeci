@@ -1,0 +1,177 @@
+body {
+    background: url('img/fondoblanco.gif') no-repeat fixed center center / 100% 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+}
+
+.divTitle {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.tblTitle {
+    vertical-align: middle;
+    padding: 0px;
+}
+
+.selectedRow {
+    background: #FFE7E7;
+}
+
+.boton {
+    width: auto;
+    height: 30px;
+    font-weight: bold;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #A70000;
+    border-radius: 5px;
+    -webkit-transition: anything 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.boton_disabled {
+    width: auto;
+    height: 30px;
+    color: #A0A0A0;
+    background: #FFFFFF;
+    border: 1px solid #A0A0A0;
+    border-radius: 5px; 
+}
+
+.boton:hover {
+    cursor: pointer;
+    background: #A70000;
+    color: #FFFFFF;
+}
+
+th {
+    color: #606060;
+}
+
+a, a:link {
+    color: #000000;
+    -webkit-transition: anything 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #CECECE;
+}
+
+#tabla th, #tabla tr, #tabla td {
+    border-collapse: separate;
+    border: 1px solid #CECECE;
+    border-radius: 10px;
+}
+
+#tabla {
+    width: 90%;
+    border: 1px solid #A70000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#tabconva th, #tabconva tr, #tabconva td {
+    border-collapse: collapse;
+    border: 1px solid #A0A0A0;
+    border-radius: 3px;
+    -webkit-transition: anything 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#tabconva {
+    width: 98%;
+    border-collapse: separate;
+    border-spacing: 5px 0px;
+}
+
+#tabconvp th, #tabconvp tr, #tabconvp td {
+    border-collapse: collapse;
+    border: 1px solid #A0A0A0;
+    border-radius: 3px;
+    -webkit-transition: anything 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#tabconvp {
+    width: 98%;
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+}
+
+#hojavida th, #hojavida tr, #hojavida td {
+    border-collapse: collapse;
+    border: 0px;
+    border-radius: 0px;
+}
+
+#hojavida {
+    width: 100%;
+    border-collapse: collapse;
+    color: #666666;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+#hojavida .nomAsp {
+    background: #EEEEEE;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+#hojavida .subTitle {
+    background: #EEEEEE;
+    color: #A70000;
+    font-size: 14px;
+    text-align: left;
+}
+
+#hojavida .paragraph {
+    width: 100%;
+    white-space: pre-line;
+    text-align: justify;
+}
+
+#hojavida .elementoHV {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0.2% 0%;
+}
+
+#hojavida .elementoTitle {
+    background: #DDDDDD;
+    font-weight: bold;
+}
+
+#hvIcon {
+    margin: 10px 0px;
+}
+
+#hvIcon img {
+    width: 17px;
+    height: auto;
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+#hvIcon a, #hvIcon a:link {
+    color: #000000;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 5px 8px;
+    -webkit-transition: anything 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#hvIcon a:hover {
+    cursor: pointer;
+    color: #A70000;
+    border: 1px solid #A70000;
+}

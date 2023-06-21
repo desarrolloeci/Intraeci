@@ -1,0 +1,267 @@
+#done {
+	float:left;
+	height:auto;
+	width:622px;
+	position:relative;
+	margin-top: 20px;
+}
+
+#done label {
+	float:left;
+	font: 12px 'MyriadProRegular';
+	height:13px;
+	width:auto;
+	padding: 3px 10px 6px 0px;
+	margin-bottom: 15px;
+}
+
+
+#done .wrap_proyect {
+	float:left;
+	width:550px;
+	height:22px;
+	margin-bottom: 15px;
+}
+
+#done input[type="text"]{
+	float:left;
+	height:11px;
+	background:#CCCCCC;
+	font: 12px 'MyriadProRegular';
+	padding: 1px 5px 0px;
+	border-top:5px solid #fff;
+	border-bottom:5px solid #fff;
+	border-right:8px solid #fff;
+	border-left:8px solid #fff;
+	position:relative;
+	-webkit-box-shadow: 0px 0px 4px 1px #CCCCCC;
+	-moz-box-shadow: 0px 0px 4px 1px #CCCCCC;
+	box-shadow: 0px 0px 4px 1px #CCCCCC;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(/images/PIE.htc);
+}
+
+
+/* centro de estudio */
+
+.divisor_investigacion {
+	float:left;
+	width: 622px;
+	height:auto;
+	margin-bottom: 15px;
+}
+
+.divisor_investigacion  ul {
+	margin: 0px !important;
+}
+
+
+.investigacion {
+	width:622px;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+.investigacion li {
+	float:left;
+	width:142px;
+	height:auto;
+	list-style: none;
+	margin: 0 13px 0 0;
+}
+
+.investigacion li h1 {
+	width:100%;
+	height:15px;
+	border-bottom: 1px solid #888;
+	font: 12px 'MyriadProRegular';
+	color: #888;
+}
+
+.investigacion ul {
+	width:90%;
+	float:left;
+	height: auto;
+	padding: 10px 0 0 10%;
+	margin: 0px;
+}
+
+.investigacion ul li {
+	float: left;
+	width: 100%;
+	height:auto;
+	list-style: disc;
+	font-size: 10px;
+	color: #888;
+	margin: 0px 0 3px 0;
+}
+
+.investigacion ul li a {
+	float:right;
+	height: auto;
+	width:100%;
+	font: 12px 'MyriadProRegular';
+	color: #666;
+}
+
+.investigacion ul li a:hover {
+	color: #333;
+}
+
+
+
+
+/* tabla 7 */
+
+.tabla7 {
+	float:left;
+	width:417px;
+	height:auto;
+	border:none;
+	border-collapse: collapse;
+	margin-top:20px;
+}
+
+.tabla7 tr {
+	vertical-align: text-bottom;
+	width:417px;
+	float:left;
+	margin: 0px;
+}
+
+.tabla7 th {
+	width:auto;
+	height:25px;
+	vertical-align: middle;
+	color: #d6d5d5;
+	padding:0px 5px;
+	position:relative;
+	float:left;
+	border-top: 1px solid #CBCBCB;
+	border-right: 1px solid #CBCBCB;
+	border-bottom: 0px;
+}
+
+.tabla7 th div {
+	width:100%;
+	height:25px;
+	padding: 0px 5px;
+	text-align:center;
+	background: #231f20;
+	vertical-align: middle;
+	display: table-cell;
+	font: 10px  'MyriadProBold';
+}
+
+.tabla7 th.right {
+	padding-right: 0px !important;
+}
+
+.tabla7 th.left {
+	padding-left: 0px !important;
+	border-left: 1px solid #CBCBCB;
+}
+
+.tabla7 td {
+	border: 1px solid #CBCBCB;
+}
+
+
+.tabla7 td {
+	width:auto;
+	height:25px;
+	vertical-align: middle;
+	text-align: center;
+	color: #666;
+	position:relative;
+	font: 12px  'MyriadProRegular';
+}
+
+.tabla7 tr.table__row {
+	background: #f0f0f0;
+}
+
+.tabla7 .th1 {
+	width: 120px;
+}
+
+.tabla7 .td1 {
+	width: 133px;
+}
+
+.tabla7 .td2 {
+	width: 138px;
+}
+
+/**/
+
+.seccion_centro {
+	float: left;
+	width: 360px;
+	height: 15px;
+	font: 12px 'MyriadProRegular';
+	margin:0 20px 25px 0px;
+}
+
+.convo_izq {
+	float:left;
+	width:290px;
+	padding:0 20px 0 0;
+	height:auto;
+	border-right: 1px solid #ccc;
+}
+
+.convo_der {
+	float:left;
+	width:290px;
+	padding:0 0px 0 20px;
+	border-left: 1px solid #ccc;
+	margin: 0 0 0 -1px;
+	height:auto;
+}
+
+.convo_externas {
+	float:left;
+	width:290px;
+	height:auto;
+	border-right: 1px solid #dfdfdf;
+	margin:20px 0px 0px 0px;
+	padding:0px;
+}
+
+.convo_externas li {
+	list-style: none;
+	float:left;
+	width:105px;
+	height:auto;
+	margin: 0px 12px 30px;
+}
+
+.convo_externas li a {
+	float:left;
+	width:100%;
+	height:28px;
+	overflow:hidden;
+	font: 11px  'MyriadProRegular';
+	text-align: center;
+	color: #959595;
+	border-bottom: 1px solid #777;
+	margin-top: 5px;
+}
+
+.convo_externas li img{
+	float:left;
+	width:105px;
+	height:72px;
+	cursor: pointer;
+}
+
+
+.convo_externas li a:hover, .active_convo_externas {
+	color:#990000 !important;
+	border-bottom: 1px solid #990000 !important;
+} 

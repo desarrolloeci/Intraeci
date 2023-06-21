@@ -1,0 +1,133 @@
+#ebooks li a {
+	float:left;
+	width: 170px;
+	height:13px;
+	margin:0px 0px 0px 10px;
+	color: #990000;
+	font: 11px 'MyriadProRegular';
+	text-align:right;
+}
+
+.foro_head {
+	float:left; 
+	height:205px; 
+	width: 600px; 
+}
+
+.foro_head img {
+	float:left;
+	width:150px;
+	height:125px;
+	margin: 15px 0 0 25px;
+	border: 5px solid #fff;
+	position:relative;
+	-webkit-box-shadow: 0 0 10px 1px #666;
+	-moz-box-shadow: 0 0 10px 1px #666;
+	box-shadow: 0 0 10px 1px #666;
+	behavior: url(/images/PIE.htc)
+}
+
+.foro_head p{
+	float:left;
+	width:400px;
+	height:116px;
+	margin-left:15px;
+	color: #777;
+    font: 11px 'MyriadProRegular';
+    overflow: hidden;
+    text-align: justify;
+}
+
+.foro_head div {
+	float:left;
+	width:400px;
+	height:19px;
+	margin-left:15x;
+}
+
+.foro_head div  h1 {
+	float:right;
+	width:auto;
+	height:15px;
+	border-left: 1px solid #ccc;
+	margin:5px 0 0 3px;
+	padding-left:3px;
+	color: #990000;
+    font: 11px 'MyriadProRegular';
+}
+
+.foro_head  h2 {
+	float:left;
+	width:430px;
+	height:15px;
+	margin:10px 0 0 25px;
+	color: #990000;
+    font: 15px 'MyriadProRegular';
+}
+
+.foro_coment {
+	float:left;
+	width:600px;
+	height:auto;
+	padding:0px;
+	margin:10px 0px 0px 0px;
+}
+
+.foro_coment li {
+	float:left;
+	width:600px;
+	height:auto;
+	list-style: none;
+	margin: 5px 0 0 0;
+	padding: 5px 0 0 0;
+	border-top: 1px solid #ccc;
+}
+
+.foro_coment li:FIRST-CHILD {
+	border:none;
+}
+
+.foro_coment li .top_coment {
+	float:left;
+	width:100%;
+	height: 14px;
+}
+
+.foro_coment li .top_coment h1 {
+	float:left;
+	width:auto;
+	height:12px;
+	margin:0px 0 0 25px;
+	color: #b7b7b7;
+    font: 12px 'MyriadProRegular';
+}
+
+.foro_coment li p {
+	float:left;
+	width:100%;
+	height:auto;
+	color: #777;
+	margin:10px 0px;
+    font: 11px 'MyriadProRegular';
+    text-align: justify;
+}
+
+.foro_coment li .top_coment a {
+	float:right;
+	width:auto;
+	height:12px;
+	margin:0px 0 0 25px;
+	color: #990000;
+    font: 12px 'MyriadProRegular';
+}
+
+.foro_coment li .top_coment .foro_like {
+	float:right;
+	width:auto;
+	background: #990000;
+	color: #fff;
+	padding:2px 4px 2px;
+	font: 12px 'MyriadProRegular';
+	height: 14px;
+	cursor: pointer;
+}

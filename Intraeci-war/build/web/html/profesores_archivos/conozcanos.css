@@ -1,0 +1,596 @@
+.superior {
+	float:left;
+	width:1146px;
+	height:332px;
+	background: url(../images/basics/bg5.jpg) repeat-x;
+	margin-bottom:18px;
+	position:relative;
+}
+
+.margen1 {
+	float:left;
+	width:161px;
+	height:55px;
+	background: blue;
+	margin-left: 62px;
+	clear:both;
+}
+
+.menu_izq {
+	float:left;
+	margin:55px 0px 0px 62px ;
+	padding:0px;
+	width:161px;
+/* 	min-height:92px; */
+	height:300px;
+	background: #fff;
+	clear:left;
+}
+
+.menu_izq2{
+	float:left;
+	margin:0px 0px 20px 62px ;
+	padding:0px 15px 0px 0px;
+	border-right:2px solid #dfdfdf;
+	width:161px;
+	height:auto;
+	background: #fff;
+	clear:left;
+}
+
+.menu_red{
+	float:left;
+	margin:70px 0px 20px 62px ;
+	padding:0px 15px 0px 0px;
+	border-right:2px solid #dfdfdf;
+	width:161px;
+	height:auto;
+	background: #fff;
+	clear:left;
+}
+
+
+.menu_izq li, .menu_izq2 li, .menu_red li  {
+	width:140px;
+	height:auto;
+	float:left;
+	list-style: none;
+	margin:5px 0px 0px 21px;
+}
+
+.menu_izq li a, .menu_izq2 li a {
+	width:120px;
+	padding:4px 20px 4px 0px;
+	border-bottom: 1px solid #fff;
+	height:auto;
+	float:left;
+	list-style: none;
+	font: 11px 'MyriadProRegular';
+	color:#000;		margin-left: -14px;
+}
+
+.menu_red li a {
+	width:120px;
+	padding:5px 20px 5px 0px;
+	border-bottom: 1px solid #fff;
+	height:auto;
+	float:left;
+	list-style: none;
+	font: 11px 'MyriadProRegular';
+	color:#990000;
+}
+
+.menu_izq li a:hover, .menu_izq2 li a:hover, .menu_red li a:hover, .active_izq {
+	border-bottom: 1px solid #990000 !important;
+	background: url(../images/basics/arrow3.jpg) no-repeat bottom right;
+}
+
+
+#imagen_superior {
+	float:left;
+	width: 838px;
+	height: 301px;
+	margin-left: 39px;
+	position:relative;
+}
+
+#imagen_superior2 {
+	float:left;
+	width: 622px;
+	height: 301px;
+	margin-left: 39px;
+	position:relative;
+}
+
+#imagen_superior div.titulo_superior, #imagen_superior2 div.titulo_superior  {
+	position:absolute;
+	left:0px;
+	top:210px;
+	width: auto;
+	height:17px;
+	padding: 11px 21px 12px 87px; 
+	background: url(../images/basics/bg7.png) repeat;
+	color: #111111;
+	font: 16px 'MyriadProBold';
+	text-align: left;
+	z-index:1;
+}
+
+#imagen_superior img.imagenbanner, #imagen_superior2 img.imagenbanner {
+	width:100%;
+	height:276px;
+	float:left;
+	position:relative;
+	-webkit-box-shadow: 0 0 5px 1px #333;
+	-moz-box-shadow: 0 0 5px 1px #333;
+	box-shadow: 0 0 5px 1px #333;
+	behavior: url(/images/PIE.htc);
+}
+
+#info_superior {
+	float:left;
+	width:217px;
+	margin-top:14px;
+	height:287px;
+}
+
+#mensaje_superior {
+	float:left;
+	width:166px;
+	height:183px;
+	padding:26px 15px 26px 25px;
+	background: #464646;
+	margin-top:30px;
+}
+
+#mensaje_superior p {
+	float:left;
+	width:166px;
+	height:auto;
+	max-height: 175px;
+	overflow:hidden;
+	color: #fff;
+	font: 11px 'MyriadProBold';
+	margin: 0px 0px 8px 0px;
+}
+
+#breadcrums {
+	float:left;
+	padding: 0px;
+	width:622px;
+	height:10px;
+	margin:10px 0px 0px 260px;
+}
+
+#breadcrums li {
+	float:left;
+	list-style: none;
+	width:auto;
+	height:10px;
+	margin-right:5px;
+}#breadcrums  {	float:left;	width:auto;	height:10px;	color: #696969;	font: 12px  'MyriadProRegular';}#breadcrums a {	color: #696969 !important;	text-transform: uppercase;}
+.columna1 {	float:left;	width:240px;	height:auto;	min-height:1px;}
+.cont_tit_columna1{	float:left;	height:auto;	width:180px;	margin-left:43px;	/* width:161px;	margin-left:62px; */}
+.titulo2 {	float:left;	width:95%;	padding-left: 5%;	height:17px;	border-bottom:1px solid #990000;	color:#990000;	margin-bottom:9px;	font: 12.5px  'MyriadProRegular';	position: relative;}.central {	float:left;	height:auto;	width:697px;	margin-left: -20px;}.titulo3 {	float:left;	width:622px;	height:17px;	border-bottom:1px solid #990000;	color:#990000;	margin:0px 38px;	font: 12.5px  'MyriadProRegular';	position: relative;}
+.columna2 {
+	float:left;
+	height:auto;
+	width:622px;
+	padding:0px 18px 0px 18px;
+	margin:0px 18px 0px 18px;
+	border-left:2px solid #dfdfdf;
+	border-right:2px solid #dfdfdf;
+}
+
+.columna2_int {
+	float:left;
+	width:622px;
+	height: auto;
+	min-height: 350px;
+	margin-top:22px;
+	position:relative;
+}
+
+.columna3 {
+	width:183px;
+	height:auto;
+	min-height:1px;
+	float:left;
+}
+
+.menu_der2 {
+	float:left;
+	padding:0px;
+	width:171px;
+	height:auto;
+	background: #fff;
+	margin:0px;
+}
+
+
+.menu_der2 li {
+	width:171px;
+	height:auto;
+	float:left;
+	list-style: none;
+	margin:5px 0px 0px 0px;
+}
+
+.menu_der2 li a{
+	width:151px;
+	padding:5px 20px 5px 0px;
+	height:auto;
+	float:left;
+	list-style: none;
+	font: 11px 'MyriadProRegular';
+	color:#000;
+	border-bottom: 1px solid #fff ;
+}
+
+.menu_der2 li a:hover, .active_der2 {
+	border-bottom: 1px solid #464646 !important;
+	background: url(../images/basics/arrow2.jpg) no-repeat bottom right;
+}
+
+.titulo4 {
+	float:left;
+	width:100%;
+	min-height:17px;
+	height:auto;
+	border-bottom:1px solid #313131;
+	color:#000;
+	margin-bottom:9px;
+	font: 12.5px  'MyriadProRegular';
+	position: relative;
+}
+
+.wrap_txt_1 {
+	float:left;
+	width:391px;
+	height:auto;
+}
+
+.img1 {
+	float:left;
+	width:186px;
+	height:279px;
+	border: 7px solid #fff;
+	margin:0px 30px 30px 0px;
+	position:relative;
+	-webkit-box-shadow: 0 0 10px 1px #666;
+	-moz-box-shadow: 0 0 10px 1px #666;
+	box-shadow: 0 0 10px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+.text1 {
+	float:left;
+	margin:0px 0px 0px 0px;
+	width:96%;
+	height:auto;
+	color:#777;
+	font: 12px  'MyriadProRegular';
+	text-align: justify;
+}
+
+.text1 p {
+	float:left;
+	margin:0px 0px 10px 0px;
+	width:100%;
+	height:auto;
+	color:#555;
+	font: 12.5px  'MyriadProRegular';
+	text-align: justify;
+}
+
+.text1 a {
+	float:left;
+	clear:both;
+	color: #000;
+	width:100%;
+	text-align:right;
+	margin-top:10px;
+}
+
+.text1 h1 {
+	float:left;
+	width: 100%;
+	height: auto;
+	margin:0px 0px 15px 0px;
+	font: 12px  'MyriadProRegular';
+	color: #464646;
+}
+
+
+#lista1 {
+	float:left;
+	width:200px;
+	height:auto;
+	border-right: 1px solid #dfdfdf;
+	margin:0px 0px 0px 13px;
+	padding:0px;
+}
+
+#lista1 li {
+	list-style: none;
+	float:left;
+	width:200px;
+	height:auto;
+	margin-top: 18px;
+}
+
+#lista1 li:first-child {
+	margin-top: 0px;
+}
+
+#lista1 li a {
+	float:left;
+	width:190px;
+	height:auto;
+	font: 12.5px  'MyriadProRegular';
+	color: #959595;
+}
+
+
+#lista1 li a:hover, .lista1 {
+	color:#990000 !important;
+}
+
+
+#info_lista1 {
+	float:left;
+	width:367px;
+	height:auto;
+	margin-left:38px;
+	position:relative;
+}
+
+#info_lista1 div.forHide {
+	float:left;
+	width:367px;
+	height:auto;
+	display:none;
+	position:relative;
+}
+
+#info_lista1 h1 {
+	float:left;
+	width: 367px;
+	height:auto;
+	margin:0px 0px 20px 0px;
+	color:#252525;
+	font: 17px  'MyriadProRegular';
+}
+
+#info_lista1 div div.cont_img{
+	display: block !important;
+	float:left;
+	width:128px;
+	height:156px;
+	border-top:4px solid #e6e6e6;
+	border-bottom:4px solid #e6e6e6;
+	border-right:3px solid #e6e6e6;
+	border-left:3px solid #e6e6e6;
+	position:relative;
+	margin: 0px 15px 15px 0px;
+}
+
+#info_lista1 div div img{
+	float:left;
+	width:118px;
+	height:154px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	border-right:5px solid #fff;
+	border-left:5px solid #fff;
+	position: relative;
+	-webkit-box-shadow: 0 0 10px 1px #666;
+	-moz-box-shadow: 0 0 10px 1px #666;
+	box-shadow: 0 0 10px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+.wrap_info_gente{
+	float:left;
+	width:218px;
+	height:auto;
+}
+
+.text2 {
+	float:left;
+	margin:0px 0px 0px 0px;
+	width:100%;
+	height:350px;
+}
+
+.text2 p {
+	float:left;
+	margin:0px 0px 10px 0px;
+	width:96%;
+	height:auto;
+	color:#555;
+	font: 12.5px  'MyriadProRegular';
+	text-align: justify;
+}
+
+.text2 h1 {
+	float:left;
+	margin:0px 0px 10px 0px;
+	width:96%;
+	height:auto;
+	font: 12px  'MyriadProRegular';
+	text-align: justify;
+}
+.text1 a {
+	float:left;
+	clear:both;
+	color: #000;
+	width:100%;
+	text-align:right;
+	margin-top:10px;
+}
+
+#left1 {
+	position:absolute;
+	left: -10px;
+	top:135px;
+	width:19px;
+	height:40px;
+	background: url(../images/basics/left1.png);
+	cursor: pointer;
+}
+
+#right1 {
+	position:absolute;
+	right: -10px;
+	top:135px;
+	width:19px;
+	height:40px;
+	background: url(../images/basics/right1.png);
+	cursor: pointer;
+}
+
+.rotador1 {
+	float:left;
+	width:562px;
+	height:325px;
+	padding:0px;
+	margin:0px 30px 0px 30px;
+}
+
+.rotador1 li {
+	float:left;
+	width:167px;
+	height:155px;
+	margin: 0px 10px 15px 10px;
+	list-style: none;
+	cursor: pointer;
+}
+
+.rotador1 li img {
+	float:left;
+	width:159px;
+	height:95px;
+	border: 4px solid #fff;
+	position:relative;
+	-webkit-box-shadow: 0 0 10px 1px #666;
+	-moz-box-shadow: 0 0 10px 1px #666;
+	box-shadow: 0 0 10px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+.rotador1 li a {
+	float:left;
+	width:167px;
+	height:40px;
+	margin-top:12px;
+	font: 12px  'MyriadProRegular';
+	color: #777;
+}
+
+.lb1 {
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	position: fixed;
+	background: url(../images/basics/bg6.png) repeat;
+	z-index: 1000;
+	display:none;
+}
+
+#div_video{
+	margin:auto;
+	position:relative;
+	top: 50px;
+	width:640px;
+	height:385px;
+	border-left:6px solid #fff;
+	border-right:6px solid #fff;
+	border-top:36px solid #fff;
+	border-bottom:8px solid #fff;
+}
+
+.lb1 a {
+	position:absolute;
+	top:-30px;
+	right:0px;
+	width:15px;
+	height:15px;
+	font: 20px  'MyriadProBold';
+	color: #990000;
+}
+
+.center_noti {
+	float:left;
+	width:474px;
+	margin-left:74px;
+	height:auto;
+}
+
+
+
+/* nuevo agosto 2012 */
+
+.half_cont{
+	float:left;
+	width:35%;
+	hieght:auto;
+}
+
+
+.wrap_himno {
+	float:left;
+	width:374px;
+	heihgt:auto;
+	margin: 0 0 0 30px;
+}
+
+.img7 {
+	float:left;
+	width:186px;
+	height:186px;
+	border: 7px solid #fff;
+	margin:0px 20px 0px 20px;
+	position:relative;
+	-webkit-box-shadow: 0 0 7px 1px #666;
+	-moz-box-shadow: 0 0 7px 1px #666;
+	box-shadow: 0 0 7px 1px #666;
+	behavior: url(/images/PIE.htc);
+}
+
+.text_simb {
+	float:left;
+	width:350px;
+	heihgt:auto;
+}
+
+.simb {
+	float:left;
+	width:592px;
+	margin: 20px 0 0 0;
+}
+
+.tit_versiones {
+	float:left;
+	margin: 30px 0 10px 37%;
+	width:63%;
+}
+
+
+.tit_versiones  h1 {
+	float:left;
+	width:100px;
+	height:auto;
+	color: #990000;
+	font: 13px 'MyriadProRegular';
+	text-align: right;
+	margin: 0px;
+}
+
+.tit_versiones  h1:FIRST-CHILD {
+	text-align:left;
+	margin-right:40px;
+}
+
+
